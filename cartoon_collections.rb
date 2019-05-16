@@ -7,6 +7,7 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(planeteer_calls)
+  i = 0
   summon_captain_planet = []
   while i < planeteer_calls.length
     summon_captain_planet.push (planeteer_calls[i].capitalize + "!")
