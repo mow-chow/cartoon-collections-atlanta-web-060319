@@ -13,6 +13,7 @@ def summon_captain_planet(planeteer_calls)
     summon_captain_planet.push (planeteer_calls[i].capitalize + "!")
     i += 1
   end
+  summon_captain_planet
 end
 
 def long_planeteer_calls# code an argument here
