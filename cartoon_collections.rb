@@ -9,7 +9,7 @@ end
 def summon_captain_planet(planeteer_calls)
   summon_captain_planet = []
   while i < planeteer_calls.length
-    summon_captain_planet.push (planeteer_calls[i].capitalize + "!") 
+    summon_captain_planet.push (planeteer_calls[i].capitalize + "!")
     i += 1
   end
 end
