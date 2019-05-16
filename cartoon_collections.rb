@@ -31,4 +31,5 @@ def find_the_cheese(snacks, cheese_types)
     |i|
     cheese_types.include?(i)
   end
+  return snacks
 end
