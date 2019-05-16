@@ -27,8 +27,7 @@ end
 
 def find_the_cheese(snacks, cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  shacks.find do
-    |i|
+  shacks.find do |i|
     cheese_types.include?(i)
   end
 end
